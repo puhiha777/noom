@@ -1,13 +1,9 @@
 {
-  "type": "module",
   "name": "zoom",
   "version": "1.0.0",
-  "homepage": ".",
   "description": "Zoom Clone using NodeJS, WebRTC and Websockets.",
-  "main": "index.js",
   "scripts": {
-    "dev": "nodemon",
-    "dcv": "nodemon -L"
+    "dev": "nodemon"
   },
   "license": "MIT",
   "devDependencies": {
@@ -18,8 +14,10 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
     "express": "^4.18.2",
     "pug": "^3.0.2",
+    "socket.io": "^4.5.4",
     "ws": "^8.12.0"
   }
 }
